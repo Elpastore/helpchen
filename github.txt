@@ -1,0 +1,20 @@
+1. Create a GitHub account
+Visit the GitHub website: https://github.com/.
+Click on "Sign up" and follow the prompts to create a new GitHub account.
+After creating your account, log in to GitHub.
+
+2. clone repos to the local machine
+Before cloning a repo the local machine make sure to create it if it's not the case. 
+For that go to the top right you will see you icon click on it and to yours repositories.
+Then click on new and fills in the fields. At the end you can it create an empty repo or create it with a README.md. Once it's step finish click on create.
+Now we have our new repo we can clone it to the local machine using git clone command.
+step1: Navigate to the repository you want to clone.
+step2: Click on the "Code" button, and copy the repository URL(choose the HTTPS one, the SSH demand more setting).
+step3: Open a terminal or command prompt on your local machine(ex: git bash).
+step4: Navigate to the directory where you want to clone the repository using the cd command.
+step5:Use the git clone command followed by the repository URL to clone the repository.
+
+Important: Before cloning your repo a good pratique is to create a classic token which is usefull before you are not oblige to enter after each commit a password
+  For that go on setting from your icon, the move down you will see developper settings. Click on Personnal Access Tokens then clic on Genetate new token.
+  Mark all option then press generate. Copy the generated code(token somewhere in local machine).
+  Now when cloning use the following command: git clone token+repository URL. Example git clone https//ajfnjnninn7767T3jjjhgggiqhufaogaigé77T4@github.com/Elpastore/helpchen
