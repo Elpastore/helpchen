@@ -1,0 +1,11 @@
+                                          ========How to install git on a local machine=======
+
+  To install git on a local machine go to https://git-scm.com/ and click on download based on your operating system.
+  a.Download the appropriate version for your operating system (Windows, macOS, or Linux).
+  b.Run the installer and follow the on-screen instructions.
+  c.During installation, choose the default settings unless you have a specific reason to customize them.
+  d.Once the installation is complete, open a terminal or command prompt and type git --version to verify that Git has been installed successfully.
+  
+  You can also install using the binary installer. For that open a terminal then depending on your operating sysmtem:
+  ==> On linux use sudo dnf install git-all
+  ==> On Debian-based distribution, such as Ubuntu, try apt: sudo apt install git-all
